@@ -27,7 +27,6 @@ github_username:  sianios
 
 # Build settings
 theme: minima
-skin: dark
 plugins:
   - jekyll-feed
 
