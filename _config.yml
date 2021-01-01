@@ -25,14 +25,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sianios
 
-# pagination: limit posts to show on home page
-paginate: 5
-paginate_path: "/page:num/"
-
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+# pagination: limit posts to show on home page
+paginate: 5
+paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
