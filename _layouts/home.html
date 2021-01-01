@@ -16,7 +16,7 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
-
+<!-- post list -->
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
@@ -38,6 +38,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
+    <!-- pagination -->
     {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">
