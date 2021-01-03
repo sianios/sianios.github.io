@@ -24,6 +24,7 @@ description: "A blog to keep and share online my notes about Linux."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sianios
+permalink: /:year/:month/:day/:title:output_ext
 
 # Build settings
 theme: minima
