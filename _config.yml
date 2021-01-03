@@ -20,21 +20,26 @@
 
 title: Lazy Linux System Admin
 #email: 
-description: "A blog to keep and share online my notes about Linux."
+#description: "A blog to keep and share online my notes about Linux."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  sianios
+#github_username:
 permalink: /:year/:month/:day/:title:output_ext
 
-# Build settings
+# Theme settings
 theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
+minima:
+  skin: dark
+  social_links:
+    github: sianios
 
 # pagination: limit posts to show on home page
 paginate: 5
 paginate_path: "/page:num/index.html"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
