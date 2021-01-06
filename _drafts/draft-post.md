@@ -12,3 +12,9 @@ To show them on the site use bundle exec jekyll --drafts
 
 ## Posts
 Giving a post day ahead will not show the post.
+
+## Change Host
+```--host 192.168.10.6```
+
+## Final command
+```bundle exec jekyll serve --drafts --host 192.168.10.6 --livereload```
