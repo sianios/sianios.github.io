@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome - The first post!"
-date:   2021-01-03
+date:   2021-01-03 16:44:17 +0200
 categories:
 ---
 Hello everyone and welcome to the blog of the Lazy Linux System Admin. 

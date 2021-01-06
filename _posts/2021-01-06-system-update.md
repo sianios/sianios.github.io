@@ -1,12 +1,14 @@
 ---
 layout: post
 title: "System Update Script Tool"
-date: 2021-01-06
+date: 2021-01-06 10:33 +0200
 categories: update
 ---
 ## Description:
 A script developed in **bash** to semi automate the packages upgrade
-procedure and cleanup on Debian based distributions for lazy users.
+procedure and cleanup on Debian based distributions for lazy users. The
+development of this small project and source code can be viewed online
+at [GitHub].
 
 ## Changelog:
 A [changelog] file is kept for changes made in the project.
@@ -66,4 +68,4 @@ v | Version | Print script version
 q | Exit | Exit the script
 
 [changelog]: https://github.com/sianios/system-update/blob/master/CHANGELOG.md
-
+[GitHub]: https://github.com/sianios/system-update
