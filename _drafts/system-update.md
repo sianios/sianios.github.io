@@ -2,7 +2,7 @@
 layout: post
 title: "System Update Script Tool"
 date: 2021-01-06
-categories: 
+categories: update
 ---
 ## Description:
 A script developed in **bash** to semi automate the packages upgrade
