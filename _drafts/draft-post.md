@@ -18,3 +18,8 @@ Giving a post day ahead will not show the post.
 
 ## Final command
 ```bundle exec jekyll serve --drafts --host 192.168.10.6 --livereload```
+
+## Images
+![My helpful screenshot]({{ "/assets/sample-image.png" | absolute_url }})
+<img src="/assets/sample-image.png" alt="picture"
+style="width:100px;height:100px;"/>
