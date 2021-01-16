@@ -13,5 +13,5 @@ discover the capabilities of jekyll - the static site generator.
 In this blog I intend to share commands, guides and configuration on how
 I managed to do various stuff around GNU/Linux on my system.
 
-My system is running Debian Testing, for the last few years, and Fluxbox
-as window manager.
+For the past few years now my system is running on Debian Testing and
+with Fluxbox as the window manager.
