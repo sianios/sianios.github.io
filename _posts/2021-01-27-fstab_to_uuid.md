@@ -29,6 +29,6 @@ UUID=7658eeca-0b6a-458e-a94b-0dv9a3890b73
 ```
 The **UUID** should be placed in the file and should look like this.
 ```
-UUID=7658eeca-0b6a-458e-a94b-0dv9a3890b73 / ext4 errors=remount-ro 0 1
+UUID=7658eeca-0b6a-458e-a94b-0dv9a3890b73 /boot ext4 defaults 0 2
 ```
 Repeat the same for all partitions listed in the file.
